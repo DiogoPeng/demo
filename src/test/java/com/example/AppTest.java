@@ -46,9 +46,4 @@ public class AppTest {
         assertTrue(!App.arrayFound(list, 6));
     }
 
-    @Test
-    public void errado() {
-        assertTrue(false);
-        ;
-    }
 }
