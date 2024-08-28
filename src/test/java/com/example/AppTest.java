@@ -45,4 +45,10 @@ public class AppTest {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         assertTrue(!App.arrayFound(list, 6));
     }
+
+    @Test
+    public void errado() {
+        assertTrue(false);
+        ;
+    }
 }
